@@ -44,7 +44,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
 .intro-copy { container-type: inline-size; }
 .intro-copy h1 { display: flex; margin: 6px 0 4px; align-items: baseline; gap: 8px; white-space: nowrap; font-family: var(--serif); font-size: clamp(28px, 8cqi, 72px); line-height: .9; letter-spacing: -.055em; }
 .intro-copy h1 em { display: inline-block; flex: 0 0 auto; margin-left: 0; color: var(--accent); font-size: .42em; vertical-align: baseline; }
-.intro-copy > p { max-width: 440px; margin: 0 0 clamp(8px, 1.2vh, 16px); opacity: .72; font-size: clamp(12px, 1.45vh, 16px); line-height: 1.45; }
+.intro-copy > p { max-width: 440px; margin: 0 0 clamp(8px, 1.2vh, 16px); opacity: .72; font-family: var(--sans); font-size: clamp(14px, 1.45vh, 16px); line-height: 1.6; }
 .password-gate { width: min(430px, 100%); }
 .birthday-lock-heading { display: flex; margin-bottom: 13px; align-items: center; gap: 11px; }
 .birthday-lock-heading > span { display: grid; width: 39px; height: 39px; flex: 0 0 auto; place-items: center; border-radius: 13px; color: white; background: var(--accent); font-size: 23px; box-shadow: 0 8px 20px color-mix(in srgb, var(--accent) 25%, transparent); }
@@ -422,7 +422,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .intro-stage { height: auto; min-height: 100svh; grid-template-columns: 1fr; padding: 76px 20px 32px; overflow-y: auto; text-align: center; }
   .intro-copy { order: 2; }
   .intro-copy > p { margin-inline: auto; }
-  .intro-copy h1 { display: block; white-space: normal; font-size: clamp(52px, 17vw, 76px); }
+  .intro-copy h1 { display: block; white-space: normal; font-size: clamp(38px, 12vw, 50px); }
   .intro-copy > p { margin-bottom: 16px; font-size: 14px; }
   .password-gate { margin-inline: auto; text-align: left; }
   .intro-visual { min-height: 255px; order: 1; }
@@ -538,8 +538,8 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .intro-visual img { width: 120px; max-height: 145px; }
   .bouquet-halo { width: 150px; }
   .hand-note { display: none; }
-  .intro-copy h1 { margin: 4px 0 8px; font-size: 44px; }
-  .intro-copy > p { margin-bottom: 10px; font-size: 12px; line-height: 1.4; }
+  .intro-copy h1 { margin: 4px 0 8px; font-size: clamp(36px, 12vw, 46px); }
+  .intro-copy > p { margin-bottom: 10px; font-size: 13px; line-height: 1.5; }
   .birthday-lock-heading { margin-bottom: 8px; }
   .birthday-code { margin-bottom: 7px; }
   .birthday-code span { height: 44px; }
