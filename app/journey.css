@@ -44,7 +44,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
 .intro-copy { container-type: inline-size; }
 .intro-copy h1 { display: flex; margin: 6px 0 4px; align-items: baseline; gap: 8px; white-space: nowrap; font-family: var(--serif); font-size: clamp(28px, 8cqi, 72px); line-height: .9; letter-spacing: -.055em; }
 .intro-copy h1 em { display: inline-block; flex: 0 0 auto; margin-left: 0; color: var(--accent); font-size: .42em; vertical-align: baseline; }
-.intro-copy > p { max-width: 440px; margin: 0 0 clamp(8px, 1.2vh, 16px); opacity: .72; font-family: var(--sans); font-size: clamp(14px, 1.45vh, 16px); line-height: 1.6; }
+.intro-copy > p { max-width: 440px; margin: 0 0 clamp(8px, 1.2vh, 16px); opacity: .76; font-family: var(--serif); font-size: clamp(15px, 1.55vh, 18px); font-style: italic; line-height: 1.65; }
 .password-gate { width: min(430px, 100%); }
 .birthday-lock-heading { display: flex; margin-bottom: 13px; align-items: center; gap: 11px; }
 .birthday-lock-heading > span { display: grid; width: 39px; height: 39px; flex: 0 0 auto; place-items: center; border-radius: 13px; color: white; background: var(--accent); font-size: 23px; box-shadow: 0 8px 20px color-mix(in srgb, var(--accent) 25%, transparent); }
@@ -423,7 +423,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .intro-copy { order: 2; }
   .intro-copy > p { margin-inline: auto; }
   .intro-copy h1 { display: block; white-space: normal; font-size: clamp(38px, 12vw, 50px); }
-  .intro-copy > p { margin-bottom: 16px; font-size: 14px; }
+  .intro-copy > p { margin-bottom: 16px; font-size: 15px; line-height: 1.55; }
   .password-gate { margin-inline: auto; text-align: left; }
   .intro-visual { min-height: 255px; order: 1; }
   .intro-visual img { width: min(205px, 55vw); max-height: 260px; }
@@ -539,7 +539,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .bouquet-halo { width: 150px; }
   .hand-note { display: none; }
   .intro-copy h1 { margin: 4px 0 8px; font-size: clamp(36px, 12vw, 46px); }
-  .intro-copy > p { margin-bottom: 10px; font-size: 13px; line-height: 1.5; }
+  .intro-copy > p { margin-bottom: 10px; font-size: 14px; line-height: 1.5; }
   .birthday-lock-heading { margin-bottom: 8px; }
   .birthday-code { margin-bottom: 7px; }
   .birthday-code span { height: 44px; }
